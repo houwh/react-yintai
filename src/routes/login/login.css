@@ -1,0 +1,77 @@
+:global(#login .w_input) {
+  margin: 40px 0;
+}
+:global(.am-tabs){
+  height:100%;
+  border:none;
+}
+body {
+  background: #eee
+}
+
+:global(.w_btn) {
+  margin: 0 3%;
+}
+
+:global(#login .am-list-body) {
+  margin: 40px 0;
+  border: 1px solid #ccc
+}
+
+:global(#login .am-tabs-tab) {
+  border-top: 1px solid #ccc
+}
+
+:global(#login .am-tabs-tab:nth-child(2)) {
+  border-right: 1px solid #ccc
+}
+
+:global(#login .am-list-item .am-input-label.am-input-label-5) {
+  width: 1rem
+}
+
+:global(#login .w_loginBq) {
+  overflow: hidden;
+}
+
+:global(#login .w_loginBq p) {
+  font-size: 34px;
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  color: #999
+}
+
+:global(#login .w_loginBq span) {
+  font-size: 28px;
+  float: right;
+  margin-right: 40px;
+  margin-top: 20px;
+  color: red
+}
+
+:global(#login h4) {
+  font-size: 24px;
+  margin: 20px;
+  font-weight: 100;
+  line-height: 1.5em;
+}
+
+:global(#login b) {
+  font-weight: 900;
+}
+
+:global(#login .w_bigkuai) {
+  height: 550px;
+}
+
+:global(h5) {
+  margin-top: 160px;
+  text-align: center;
+  font-size: 28px;
+  color: #999;
+}
+
+:global(#login h5 span) {
+  color: #222;
+}

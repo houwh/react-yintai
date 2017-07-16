@@ -1,0 +1,41 @@
+:global(#w_register ul) {
+  width: 100vw;
+}
+
+:global(#w_register ul li) {
+  width: 100%;
+  border-bottom: 2px solid #ccc;
+  height: 85px;
+  background: #fff;
+}
+
+:global(#w_register ul li:nth-child(1)) {
+  border-top: 2px solid #ccc;
+}
+
+:global(#w_register ul li input) {
+  line-height: 85px;
+  height: 80px;
+  padding-left: 40px;
+  width: 60%;
+  font-size: 30px;
+  border:none;
+}
+
+:global(#w_register ul li span) {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  width: 180px;
+  padding: 10px;
+  font-size: 24px;
+}
+
+:global(#w_register p) {
+  font-size: 24px;
+  padding: 20px;
+  line-height: 1.5em;
+}
+
+:global(#w_register .w_register) {
+  margin: 0 10%;
+}

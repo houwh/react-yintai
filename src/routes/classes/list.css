@@ -1,0 +1,51 @@
+*{margin: 0; padding: 0}
+li{list-style: none}
+
+:global(.list-top){ padding: 8px 0; box-sizing: border-box;height: 74px; border-bottom: 1px solid #ccc; border-top: 1px solid #ccc;background: #fff;}
+:global(.list-top li){display: inline-block; width: 20%; border-right:1px solid #ccc; box-sizing: border-box;
+     line-height: 60px; text-align: center; height: 100%; position: relative;}
+
+:global(.list-shop){ width:100%; height: 100%}
+:global(.list-shop li){width: 100%; height: 286px; border-bottom: 1px dashed #d9d9d9; box-sizing: border-box;
+     padding: 20px;background: #fff; position: relative}
+:global(.list-icon-top){font-size: 10px;}
+:global(.list-shop li img){ float: left; border: 1px solid #ccc;}
+:global(.list-shop-div){ float: left; width: 500px; padding-left: 20px}
+:global(.list-shop-div p:nth-child(1)){ color:#333; }
+:global(.list-shop-div p:nth-child(2)){ color:#666; text-decoration:line-through; }
+:global(.list-shop-div p:nth-child(3)){ color:red; }
+:global(.list-shop-div p){line-height: 44px;}
+
+
+:global(.my-drawer) {
+     position: relative;
+     overflow: auto;
+}
+:global(.my-drawer .am-drawer-sidebar) {
+     background-color: #fff;
+     overflow: auto;
+}
+:global(.my-drawer .am-drawer-sidebar .am-list) {
+     width: 6rem;
+     padding: 0;
+}
+:global(.list-sidebar){ height:62px; padding:16px 8px 10px; background: #fff; text-align: center }
+:global(.list-sidebar p){ float: left; border: 1px solid #999; height: 70px; line-height: 70px;padding: 0 30px;
+     border-radius: 10px;}
+:global(.list-sidebar p:nth-child(1)){ margin-left: 20px;}
+:global(.list-sidebar p:nth-child(1)){ margin-right: 20px; float: right; border: 1px solid #e5004f;}
+
+:global(.am-list-content){ font-size: 30px !important;}
+
+:global(.my-accordion .pad .am-accordion-content-box) {
+     padding: 0.2rem;
+}
+:global(.my-accordion .my-list .am-list-body) {
+     border-top: 0;
+}
+:global(.my-accordion .my-list .am-list-body:after) {
+     border-bottom: 0;
+}
+
+/*.am-drawer-sidebar{ top: -400px !important; z-index: 10000 !important;}*/
+

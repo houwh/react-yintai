@@ -1,0 +1,51 @@
+.header{
+    color:#333;
+    border-bottom: 1px solid #ccc;
+}
+:global(.am-tabs-top){
+    border-bottom:1px solid #ccc;
+}
+:global(.am-tabs-top .am-tabs-bar div){
+    box-shadow:1px 0px 0px #ededed inset;
+}
+body{
+    background:#fff;
+}
+.navContent li{
+    width:100vw;
+    margin-top:20px;
+    border-bottom:1px solid #ccc;
+    position: relative;
+}
+.navContent li img{
+    width: 100vw;
+}
+.navContent li .title{
+    margin: 10px 20px;
+    font-size: 28px;
+    color:#333;
+}
+.navContent li .title span{
+    float: right;
+    color:#999;
+}
+.navContent li .title span i{
+    font-style: normal;
+    color:#ff3b7f;
+}
+.navContent li .disc{
+    background: rgba(229,0,79,0.8);
+    border-radius: 0 20px 20px 0;
+    position: absolute;
+    top:20px;
+    left:0;
+    width:164px;
+    height:40px;
+    color:#fff;
+    font-size: 28px;
+    text-align: center;
+    line-height:40px;
+}
+
+
+

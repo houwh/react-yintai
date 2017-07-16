@@ -1,0 +1,72 @@
+.payPage{
+    padding-bottom:100px;
+}
+:global(.am-list-content){
+    font-size: 28px !important;
+    color:#999 !important;
+}
+:global(.am-input-label){
+    font-size: 28px !important;
+    color:#999 !important;
+}
+:global(.am-list-extra){
+    font-size: 28px !important;
+    color:#333 !important;
+    flex:1;
+    text-align: right;
+}
+.adress{
+    height:132px !important;
+    border-top:1px solid #666;
+    border-bottom:1px solid #999;
+}
+.adress :global(.am-input-control input){
+    height:132px;
+    box-sizing: border-box;
+}
+.pay :global(.am-input-control input::placeholder){
+    font-size: 28px !important;
+    color:#333 !important;
+}
+.adress :global(.am-input-control input::placeholder){
+    font-size: 28px !important;
+    color:#333 !important;
+}
+.msg :global(.am-input-control input::placeholder){
+    font-size: 28px !important;
+    color:#ccc !important;
+}
+.pay,:global(.am-list){
+    border-top:1px solid #999;
+    border-bottom:1px solid #999;
+}
+.button{
+    background:#e5004f;
+    width:200px;
+    color:#fff;
+    height:100%;
+    display: inline-block;
+    text-align: center;
+    line-height:90px;
+}
+:global(.am-list-extra){
+    padding:0 !important;
+}
+
+.submit :global(.am-list-line){
+    padding:0 !important;
+}
+
+.submit :global(.am-list-content){
+    flex-grow: 2!important;
+}
+.goodsmsg{
+    height:210px;
+}
+:global(.am-list-thumb img){
+    width:120px;
+    height:160px;
+    border:1px solid #ccc;
+}
+
+

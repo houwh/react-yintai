@@ -1,0 +1,207 @@
+:global(#w_my) {
+  background: #eee;
+  padding-bottom: 120px;
+}
+
+:global(#w_my .w_div) {
+  height: 230px;
+  width: 100vw;
+  text-align: center;
+  background: #ff60aa;
+  position: relative;
+}
+
+:global(#w_my .w_div img) {
+  margin: 20px;
+  width: 140px;
+}
+
+:global(#w_my .w_div span) {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 24px;
+}
+
+:global(#w_my .w_div p) {
+  font-size: 30px;
+  color: #fff;
+}
+
+:global(#w_my .w_ul1) {
+  height: 180px;
+  width: 100vw;
+  background: #fff;
+  border-bottom: 1px solid #ddd
+}
+
+:global(#w_my .w_ul1 li) {
+  display: inline-block;
+  margin: 30px 0;
+  width: 25%;
+  text-align: center;
+  box-sizing: border-box;
+  border-right: 1px solid #ddd;
+  height: 120px;
+}
+
+:global(#w_my .w_ul1 li:last-child) {
+  border-right: none;
+}
+
+:global(#w_my .w_ul1 li p) {
+  font-size: 28px;
+  line-height: 2.5em;
+}
+
+:global(#w_my .w_ul2) {
+  margin-top: 20px;
+  height: 130px;
+  width: 100vw;
+  background: #fff;
+  line-height: 1.4em;
+}
+
+:global(#w_my .w_ul2 li) {
+  display: inline-block;
+  margin: 20px 0;
+  width: 33.33%;
+  text-align: center;
+  box-sizing: border-box;
+  border-right: 1px solid #ddd;
+  height: 90px;
+}
+
+:global(#w_my .w_ul2 li:last-child) {
+  border-right: none;
+}
+
+:global(#w_my .w_ul2 li p) {
+  font-size: 26px;
+}
+
+:global(#w_my .w_ul3) {
+  height: 240px;
+  width: 100vw;
+  background: #fff;
+  line-height: 1.3em;
+}
+
+:global(#w_my .w_ul3 li) {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd;
+  height: 120px;
+  padding: 15px;
+}
+
+:global(#w_my .w_ul3 li span) {
+  font-size: 24px;
+}
+
+:global(#w_my .w_ul3 li div) {
+  display: inline-block;
+}
+
+:global(#w_my .w_ul3 li div img) {
+  margin-top: -20px;
+}
+
+:global(#w_my .w_ul3 li p) {
+  font-size: 28px;
+  padding-left: 20px;
+}
+
+:global(#w_my .w_ul3 li:nth-child(odd)) {
+  border-right: 1px solid #ddd;
+}
+
+:global(#w_my .w_ul4) {
+  margin-top: 20px;
+  height: 240px;
+  width: 100vw;
+  background: #fff;
+}
+
+:global(#w_my .w_ul4 li) {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd;
+  height: 120px;
+  line-height: 120px;
+}
+
+:global(#w_my .w_ul4 li p) {
+  font-size: 24px;
+}
+
+:global(#w_my .w_ul4 li:nth-child(odd)) {
+  border-right: 1px solid #ddd;
+}
+
+:global(#w_my .w_ul5) {
+  margin-top: 20px;
+  height: 200px;
+  width: 100vw;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+:global(#w_my .w_ul5 li) {
+  height: 100px;
+  line-height: 100px;
+  padding: 0 20px;
+  font-size: 30px;
+}
+
+:global(#w_my .w_ul5 li p) {
+  float: left;
+}
+
+:global(#w_my .w_ul5 li span) {
+  float: right;
+}
+
+:global(#w_my .w_ul5 li b) {
+  color: red;
+  font-weight: 100;
+}
+
+:global(#w_my .w_ul6) {
+  margin-top: 20px;
+  height: 100px;
+  width: 100vw;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+:global(#w_my .w_ul6 li) {
+  height: 100px;
+  line-height: 100px;
+  padding: 0 20px;
+  font-size: 30px;
+}
+
+:global(#w_my .w_ul6 li p) {
+  float: left;
+}
+
+:global(#w_my .w_ul6 li span) {
+  float: right;
+}
+
+:global(#w_my .w_ul7) {
+  margin-top: 20px;
+  height: 100px;
+  width: 100vw;
+  background: #fff;
+  color: red;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}

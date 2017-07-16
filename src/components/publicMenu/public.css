@@ -1,0 +1,47 @@
+#tab-bar.demo {
+    display: flex;
+    flex-direction: column;
+}
+#tab-bar .demoName {
+    height: 0.8rem;
+}
+#tab-bar .demo-preview-item,
+#tab-bar .demo-preview-item .am-tab-bar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+#tab-bar .demo-preview-item .am-tab-bar {
+    background-color: white;
+}
+:global(.header){position: fixed;top:0;left: 0; width: 100%; height: 80px; z-index: 100;}
+:global(.am-navbar){height: 80px; border-bottom: 1px solid #999;}
+:global(.am-navbar-light){ color: black;}
+
+:global(#content){  width: 100%; height: 100%;}
+:global(.footer){ position: fixed; bottom: 0; left: 0; width: 100%; height: 100px; background: #fff;
+    border-top: 1px solid #ccc; display: flex; justify-content: space-around; line-height: 100px;}
+:global(.body){
+    height: 100%;
+}
+:global(.footer-shop) ~ :global(#content){ padding-bottom: 84px;}
+
+:global(.footer-shop){ width:100%; height: 84px; background: red; position: fixed; bottom: 0; left: 0;
+    display: flex; line-height: 84px; z-index: 100}
+:global(.footer-shop li){ text-align: center; color: #fff; font-size: 30px;}
+:global(.footer-shop li:nth-child(1)){ width: 100px; background: #fff; color: #666;}
+:global(.footer-shop li:nth-child(2)){ flex: 1; background: #e5004f}
+:global(.footer-shop li:nth-child(3)){flex: 1; background:#ff7039}
+
+:global(.my-drawer) {
+    position: relative;
+    overflow: auto;
+}
+:global(.my-drawer .am-drawer-sidebar) {
+    background-color: #fff;
+    overflow: auto;
+}
+:global(.my-drawer .am-drawer-sidebar .am-list) {
+    width: 6rem;
+    padding: 0;
+}

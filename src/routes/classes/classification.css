@@ -1,0 +1,27 @@
+li{list-style: none;}
+*{margin: 0; padding: 0;}
+body,html{height: 100%;}
+
+.class :global(.class-input){ width: 100%; height: 128px; background: #fff; border-bottom: 1px solid #999;
+    padding: 20px; box-sizing: border-box; position: fixed; top: 81px; left: 0;}
+.class :global(.class-txt){ width:100%; height: 100%; border: 1px solid #999; border-radius: 10px;
+    box-sizing: border-box;  padding: 18px;}
+.class :global(.class-txt input){height: 100%; width: 80%; border: none; font-size: 25px;}
+
+.class :global(.class-ul){ float: left; width: 180px;/*height:1200px有问题，滚动条问题*/
+   text-align: center; overflow-y: auto; height:1200px; padding-top:208px; }
+.class :global(.class-ul li){ height: 110px; line-height: 110px; font-size: 27px; border-right: 1px solid #ccc;}
+
+.class :global(.active){ color: red; background: #fff; border-right:1px solid #fff; width: 183px;}
+
+.class :global(.class-commodity){ padding-top: 208px; background: #fff; float: right;
+    width: 568px; overflow-y: auto; height:1200px;}  /*height:1200px有问题，滚动条问题*/
+.class :global(.class-commodity ul){ overflow: hidden;}
+.class :global(.class-commodity ul li) {width: 33%; float: left; text-align: center; padding: 30px 0 ;}
+.class :global(.class-commodity ul li img){width: 80%;}
+.class :global(.class-icon){ float: right; border-left: 1px solid #999; padding:0 20px ;}
+.class :global(.class-name){ font-size: 25px; margin-top: 20px;}
+.class :global(.class-p){width: 100%; height: 110px;color: #666;
+    font-family: sans-serif;line-height: 110px; text-align: center; font-size: 28px;}
+.class :global(.class-brandre li img){border: 1px solid #ccc;}
+.class :global(.class-morere li){color: #666; font-size: 25px; line-height: 50px}

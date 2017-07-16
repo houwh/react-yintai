@@ -1,0 +1,56 @@
+.listBox li{
+    border:1px dashed #ccc;
+    height:284px;
+    padding:20px;
+    box-sizing: border-box;
+    display: flex;
+    line-height:44px;
+}
+.listBox li img{
+    border:1px solid #dedede;
+    margin-right:20px;
+}
+.listBox li .title{
+    font-size: 32px;
+    color:#333;
+}
+.listBox li span{
+    text-decoration: line-through;
+    font-size:28px;
+    color:#666;
+}
+.listBox li .price{
+    color:#e5004f;
+    font-size: 32px;
+}
+.listBox li .label{
+    background:#FF3C7E;
+    border-radius: 5px;
+    color:#fff;
+    width:84px;
+    font-size: 24px;
+    height:44px;
+    text-align: center;
+    line-height: 44px;
+    margin:5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

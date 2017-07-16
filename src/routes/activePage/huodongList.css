@@ -1,0 +1,74 @@
+:global(#huodongList) {
+  padding-bottom: 79px;
+}
+
+:global(.w_img) {
+  overflow: hidden;
+}
+
+:global(.w_img img) {
+  width: 100%;
+  padding: 0;
+  height: 100%
+}
+
+:global(.w_jx img) {
+  width: 100%;
+  padding: 0;
+}
+
+:global(.w_pp img) {
+  width: 100%;
+  padding: 0;
+}
+
+:global(.w_ul1) {
+  width: 100vw;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+:global(.w_ul1 li) {
+  padding: 10px 4px;
+  display: inline-block;
+}
+
+:global(.w_ul1 li img) {
+  border: 1px solid #aaa;
+}
+
+:global(.w_ul1 li p) {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 180px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+:global(.w_ul1 li em) {
+  width: 180px;
+  font-size: 28px;
+  color: red;
+}
+
+:global(.w_pp1) {
+  width: 100vw;
+}
+
+:global(.w_pp1 li) {
+  float: left;
+  width: 33.33%;
+}
+
+:global(.w_pp1 li img) {
+  width: 100%
+}
+
+:global(.w_xx) {
+  width: 100vw;
+}
+
+:global(.w_xx img) {
+  width: 100%;
+}

@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style: none;
+}
+body,html{
+    width:100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height:110px;
+    background: #fff;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    align-items: center;
+    z-index: 99;
+}
+.header .search{
+    width:352px;
+    height:60px;
+    padding:12px;
+    border:1px solid #d2d2d2;
+    border-radius: 10px;
+    flex: 1;
+    position:relative;
+}
+.header img{
+    width: 150px;
+    height:85px;
+}
+.header .search input{
+    height:60px;
+    border:none;
+    padding-right:50px;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.header .searchBox{
+    position: absolute;
+    right: 10px;
+    width:72px;
+    text-align: center;
+    height:60px;
+    line-height:60px;
+    padding-left:10px;
+    border-left:1px solid #d2d2d2;
+}
+.header .oSearch{
+    width:40px;
+    height:40px;
+    vertical-align: middle;
+}
+.header .user{
+    width:110px;
+    height:85px;
+    line-height:85px;
+    text-align: center;
+}
+.header .user .oUser{
+    width:60px;
+    height:60px;
+    vertical-align: middle;
+    color:#666;
+}
+
+.my-carousel {
+    margin-top:110px;
+    background: #fff;
+    width:100%;
+    height:305px;
+}
+.my-carousel a {
+    display: inline-block;
+    width: 100%;
+    margin: 0; padding: 0;
+}
+.my-carousel a img {
+    width: 100%;
+    height:100%;
+    vertical-align: top;
+}
+.my-carousel .v-item {
+    height: 0.72rem;
+    line-height: 0.72rem;
+    padding-left: 0.2rem;
+}
+:global(.am-grid .am-flexbox .am-flexbox-item .am-grid-item-content .am-grid-item-inner-content .am-grid-icon){
+    width:100%;
+    height:50%;
+    margin-top:0;
+}
+:global(.am-list-item .am-list-line .am-list-content){
+    font-size: 28px;
+}
+.hotzone ul{
+    overflow-x: auto;
+    width:100%;
+    white-space: nowrap;
+}
+.hotzone ul li{
+    height:266px;
+    display: inline-block;
+    width:180px;
+    margin:6px 4px;
+ }
+.hotzone ul li p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width:180px;
+    font-size: 28px;
+    color:#666;
+    line-height:34px;
+    margin:10px 0;
+}
+.hotzone ul li span{
+    color:#e5004f;
+}
+.hotzone ul li img{
+    border:1px solid #ccc;
+}
+.hotzone ul {
+    background: #fff;
+}
+.rec li,.rec img{
+    float: left;
+    width:50vw;
+}
+.rec div img {
+    width:100vw;
+}
+.listTitle{
+    width:100%;
+    margin:10px 0 5px;
+}
+.listdata ul{
+    margin:0 5px;
+    width:100%;
+}
+.listdata li{
+    width:48vw;
+    margin:5px;
+    overflow: hidden;
+    float: left;
+    height:86vw;
+    background: #fff;
+}
+.listdata li p{
+    width:100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding:10px 20px;
+    box-sizing: border-box;
+    font-size: 28px;
+    color:#333;
+}
+.listdata li img{
+    width:100%;
+}
+.listdata li span{
+    font-size:24px;
+    color:#666;
+    text-decoration: line-through;
+    float: right;
+}
+.listdata .price{
+    color:#e5004f;
+    font-size: 32px;
+    padding-right:40px;
+    box-sizing: border-box;
+}
